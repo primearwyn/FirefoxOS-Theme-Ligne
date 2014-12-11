@@ -87,7 +87,7 @@ form[role="dialog"][data-type="confirm"] menu button {
   overflow: hidden;
   background: #d8d8d8;
   border: none;
-  border-radius: 2rem;
+  border-radius: 0.4rem;
   font-weight: normal;
   font-size: 1.6rem;
   line-height: 4rem;

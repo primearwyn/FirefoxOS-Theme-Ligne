@@ -247,7 +247,7 @@
   text-align: center;
   border: none;
   margin-bottom: 1.5rem;
-  border-radius: 2rem;
+  border-radius: 0.4rem;
 }
 
 [role="dialog"][data-type="action"] > menu > button:last-child:before {
