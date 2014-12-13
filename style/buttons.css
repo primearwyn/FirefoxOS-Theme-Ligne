@@ -25,7 +25,7 @@ button,
   white-space: nowrap;
   overflow: hidden;
   background: #d8d8d8;
-  border: none;
+  border: 1px solid #000;
   border-radius: 0.4rem;
   font-weight: normal;
   font-size: 1.6rem;
@@ -34,6 +34,13 @@ button,
   text-align: center;
   text-decoration: none;
   outline: none;
+}
+
+/* Border for dark backgrounds */
+.skin-dark button,
+.skin-dark .bb-button,
+.skin-dark .button {
+  border: 1px solid #CDCDFF;
 }
 
 /* Recommend */
@@ -94,6 +101,7 @@ button[disabled],
 .button[aria-disabled="true"] {
   background-color: rgba(0,0,0,0.05);
   color: #c7c7c7;
+  border: none;
   pointer-events: none;
 }
 
@@ -146,7 +154,7 @@ li .bb-button,
 li .button {
   position: relative;
   text-align: left;
-  border: 0.1rem solid #c7c7c7;
+  border: 0.1rem solid #CDCDFF;
   background: rgba(0,0,0,0.05);
   margin: 0 0 1rem;
   overflow: hidden;
@@ -270,7 +278,6 @@ li .button[aria-disabled="true"].icon-dialog:before {
 .skin-dark li .bb-button,
 .skin-dark li .button {
   background-color: #454545;
-  border: none;
   color: #fff;
   font-weight: normal;
 }
