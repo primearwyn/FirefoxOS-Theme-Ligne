@@ -86,7 +86,7 @@ form[role="dialog"][data-type="confirm"] menu button {
   white-space: nowrap;
   overflow: hidden;
   background: #d8d8d8;
-  border: none;
+  border: 1px solid #000;
   border-radius: 0.4rem;
   font-weight: normal;
   font-size: 1.6rem;
@@ -120,6 +120,7 @@ form[role="dialog"][data-type="confirm"] menu button:active {
 form[role="dialog"][data-type="confirm"] > menu > button[disabled] {
   background-color: #565656;
   color: rgba(255,255,255,0.4);
+  border: none;
   pointer-events: none;
 }
 
