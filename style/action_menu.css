@@ -309,6 +309,7 @@ html[dir="rtl"] [role="dialog"][data-type="action"] > header menu[type="toolbar"
 html[dir="rtl"] [role="dialog"][data-type="action"] > header menu[type="toolbar"] a,
 html[dir="rtl"] [role="dialog"][data-type="action"] > header menu[type="toolbar"] button {
   float: right;
+  border-right: 1px dashed #CDCDFF;
 }
 
 html[dir="rtl"] [role="dialog"][data-type="action"] > header menu[type="toolbar"] a:last-child,
@@ -336,6 +337,7 @@ html[dir="rtl"] [role="dialog"][data-type="action"] > header > button .icon:afte
 html[dir="rtl"] [role="dialog"][data-type="action"] > header > a .icon:after {
   left: auto;
   right: 0;
+  border-left: 1px solid #CDCDFF;
 }
 
 html[dir="rtl"] [role="dialog"][data-type="action"] > menu > button:last-child {
