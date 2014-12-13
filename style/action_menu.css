@@ -232,7 +232,7 @@
   padding: 0 1.2rem;
   margin: 0 1.5rem 1rem 1.5rem;
   background: rgba(87, 87, 87, 0.8);
-  border: none;
+  border: 1px solid #CDCDFF;
   border-radius: 0;
   position: relative;
   color: #fff;
@@ -247,7 +247,7 @@
   color: #333;
   background: #d8d8d8;
   text-align: center;
-  border: none;
+  border: 1px solid #000;
   margin-bottom: 1.5rem;
   border-radius: 0.4rem;
 }
@@ -277,6 +277,7 @@
 [role="dialog"][data-type="action"] > menu > button[disabled] {
   background-color: rgba(87, 87, 87, 0.8);
   color: rgba(255, 255, 255, 0.4);
+  border: none;
   opacity: 0.5;
   pointer-events: none;
 }
@@ -284,6 +285,7 @@
 [role="dialog"][data-type="action"] > menu > button[disabled]:last-child {
   background-color: #e7e7e7;
   color: #a6a6a6;
+  border: none;
   opacity: 1;
 }
 
