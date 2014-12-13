@@ -82,6 +82,7 @@
   height: 4.9rem;
   margin-bottom: 0;
   padding: 0 1rem;
+  border-left: 1px dashed #CDCDFF;
   border-radius: 0;
   line-height: 4.9rem;
   background: none;
@@ -171,6 +172,7 @@
   margin: 0;
   overflow: visible;
   font-size: 0;
+  border-right: 1px solid #CDCDFF;
 }
 
 [role="dialog"][data-type="action"] > header > button .icon:after,
