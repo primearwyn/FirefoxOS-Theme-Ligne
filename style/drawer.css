@@ -91,6 +91,8 @@ section[data-type="sidebar"] > header menu[type="toolbar"] button {
   float: left;
   background: none;
   padding: 0 1.75rem;
+  border: none;
+  border-left: 1px dashed #CDCDFF;
   -moz-box-sizing: border-box;
   min-width: 5rem;
   text-align: center;
@@ -98,7 +100,7 @@ section[data-type="sidebar"] > header menu[type="toolbar"] button {
 
 section[data-type="sidebar"] > header menu[type="toolbar"] a:last-child,
 section[data-type="sidebar"] > header menu[type="toolbar"] button:last-child {
-  background: url(drawer/images/ui/separator.png) no-repeat left center / auto 3.1rem;
+  border-left: 1px solid #CDCDFF;
 }
 
 section[data-type="sidebar"] > header menu[type="toolbar"] {
@@ -111,6 +113,7 @@ section[data-type="sidebar"] > header button {
   border: none;
   background: none;
   padding: 0;
+  border-right: 1px solid #CDCDFF;
   overflow: hidden;
   font-weight: 600;
   font-size: 1.4rem;
