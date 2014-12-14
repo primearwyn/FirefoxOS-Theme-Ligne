@@ -30,10 +30,12 @@
 [role="dialog"][data-type="edit"] [role="region"] > header:first-child menu[type="toolbar"] button,
 [role="dialog"][data-type="edit"] [role="region"] > gaia-header button {
   color: #00aac5;
+  border-left: 1px dashed #000;
 }
 
 [role="dialog"][data-type="edit"] [role="region"] > header:first-child .icon.icon-close {
   background-image: url(headers/images/icons/organic/close.png);
+  border-right: 1px solid #000;
 }
 
 /* Menu */
@@ -66,7 +68,7 @@
   white-space: nowrap;
   overflow: hidden;
   background: #e7e7e7;
-  border: none;
+  border: 1px solid #000;
   border-radius: 0.4rem;
   font-weight: normal;
   font-size: 1.6rem;
@@ -105,11 +107,13 @@
 /* Using pointer-events: none, makes events go through the button. As edit mode is an overlay is quite possible we have active buttons underneath */
 [role="dialog"][data-type="edit"] button[disabled] {
   pointer-events: auto;
+  border: none;
 }
 
 [role="dialog"][data-type="edit"] > menu button[disabled] {
   opacity: 0.6;
   color: rgba(51,51,51,0.5);
+  border: none;
 }
 
 [role="dialog"][data-type="edit"] button[disabled]::-moz-selection {
