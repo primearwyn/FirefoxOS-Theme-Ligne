@@ -36,9 +36,14 @@ html[dir="rtl"] .bb-tablist {
   padding: 0;
   height: 4.5rem;
   background-color: #ffffff;
+  border-left: 1px dashed #000;
   list-style: none;
   pointer-events: all;
   flex: 1 1 0;
+}
+
+.bb-tablist > li:first-child {
+  border-left: none;
 }
 
 .bb-tablist > li > a,
@@ -111,6 +116,7 @@ html[dir="rtl"] .bb-tablist {
 
 .bb-tablist.skin-dark > li {
   background-color: transparent;
+  border-left: 1px dashed #CDCDFF;
 }
 
 .bb-tablist.skin-dark > li > a,
@@ -222,13 +228,10 @@ html[dir="rtl"] .bb-tablist {
 .bb-tablist[data-type="filter"] > li {
   background: none;
   position: relative;
+  border-left: 1px solid #000;
   color: #737272;
   text-align: center;
   height: 100%;
-}
-
-.bb-tablist[data-type="filter"] > li:first-child {
-  border-left: none;
 }
 
 .bb-tablist[data-type="filter"] > li > a,
