@@ -33,9 +33,14 @@
   border-left: 1px dashed #000;
 }
 
+[role="dialog"][data-type="edit"] [role="region"] > header:first-child menu[type="toolbar"] > button,
+[role="dialog"][data-type="edit"] [role="region"] > gaia-header > button {
+  border-left: none;
+  border-right: 1px solid #000;
+}
+
 [role="dialog"][data-type="edit"] [role="region"] > header:first-child .icon.icon-close {
   background-image: url(headers/images/icons/organic/close.png);
-  border-right: 1px solid #000;
 }
 
 /* Menu */
