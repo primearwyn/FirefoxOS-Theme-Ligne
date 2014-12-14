@@ -86,6 +86,7 @@ section[role="region"] > header:first-child a[aria-disabled="true"],
 section[role="region"] > header:first-child button[disabled] {
   opacity: 0.3;
   pointer-events: none;
+  border: none;
 }
 
 /* ----------------------------------
@@ -147,6 +148,16 @@ section[role="region"] > header:first-child button:hover {
 section[role="region"] > header:first-child a:focus,
 section[role="region"] > header:first-child button:focus {
   background-color: transparent;
+}
+
+section[role="region"] > header:first-child > a,
+section[role="region"] > header:first-child > button {
+  border-right: 1px solid #CDCDFF;
+}
+
+section[role="region"] > header:first-child menu a,
+section[role="region"] > header:first-child menu button {
+  border-left: 1px dashed #CDCDFF;
 }
 
 /* ----------------------------------
