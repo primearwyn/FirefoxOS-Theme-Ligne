@@ -37,7 +37,7 @@
   width: 100%;
   height: 6rem;
   box-sizing: border-box;
-  border-bottom: solid 0.1rem #e7e7e7;
+  border-bottom: 0.1rem dashed #000;
   color: #333;
   margin: 0;
   display: block;
