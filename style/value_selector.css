@@ -94,6 +94,9 @@
 
 /* Subheaders */
 [role="dialog"][data-type="value-selector"] [role="listbox"] li[role="subheader"] {
+  border-top: 0.1rem solid #CDCDFF;
+  border-bottom: 0.1rem solid #CDCDFF;
+  background-color: #242424;
   pointer-events: none;
   -moz-user-select: none;
 }
