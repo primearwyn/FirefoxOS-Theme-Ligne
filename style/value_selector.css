@@ -67,7 +67,7 @@
   outline: none;
   display: block;
   color: #fff;
-  border-top: 0.1rem solid #666;
+  border-top: 0.1rem dashed #CDCDFF;
 }
 
 [role="dialog"][data-type="value-selector"] [role="listbox"] li label span {
@@ -94,8 +94,6 @@
 
 /* Subheaders */
 [role="dialog"][data-type="value-selector"] [role="listbox"] li[role="subheader"] {
-  border: none;
-  background-color: #242424;
   pointer-events: none;
   -moz-user-select: none;
 }
