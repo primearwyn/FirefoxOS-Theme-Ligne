@@ -47,7 +47,7 @@
   overflow: hidden;
   font-weight: normal;
   padding: 0 3rem;
-  border-bottom: 0.1rem solid #616262;
+  border-bottom: 0.1rem solid #CDCDFF;
 }
 
 [role="dialog"][data-type="action"] > header h1 {
@@ -261,6 +261,7 @@
   left: 0;
   bottom: 0;
   z-index: -1;
+  border-top: 1px solid #CDCDFF;
 }
 
 [role="dialog"][data-type="action"] > menu > button:nth-last-child(2) {
