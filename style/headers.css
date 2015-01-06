@@ -85,7 +85,6 @@ section[role="region"] > header:first-child a[aria-disabled="true"],
 section[role="region"] > header:first-child button[disabled] {
   opacity: 0.3;
   pointer-events: none;
-  border: none;
 }
 
 /* ----------------------------------
