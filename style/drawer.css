@@ -47,17 +47,7 @@ section[data-type="sidebar"] > header {
   height: 5rem;
   color: #fff;
   background: url(drawer/images/ui/header.png) repeat-x left bottom / 100% auto;
-}
-
-section[data-type="sidebar"] > header:after {
-  content: "";
-  height: 0.3rem;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  background: url(drawer/images/ui/shadow_header.png) repeat-x left top;
-  background-size: auto 100%;
+  border-bottom: 0.2rem solid #CDCDFF;
 }
 
 section[data-type="sidebar"] > header h1 {
