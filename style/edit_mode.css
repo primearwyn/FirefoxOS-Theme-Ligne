@@ -48,7 +48,7 @@
   white-space: nowrap;
   margin: 0;
   padding: 1.5rem;
-  border-top: solid 0.1rem rgba(189,189,189,0.2);
+  border-top: solid 0.1rem #000;
   background: #fff;
   display: block;
   overflow: hidden;
