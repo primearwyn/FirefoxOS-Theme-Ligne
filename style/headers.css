@@ -216,7 +216,8 @@ section[role="region"] > header:first-child .icon-options {
 ---------------------------------- */
 
 section[role="region"] header h2 {
-  color: #424242;
+  color: #fff;
+  background-color: #424242;
   border-bottom: solid 0.1rem #000;
 }
 
