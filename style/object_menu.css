@@ -29,7 +29,7 @@
   overflow: hidden;
   font-weight: normal;
   padding: 0 3rem;
-  border-bottom: 0.1rem solid #616262;
+  border-bottom: 0.2rem solid #CDCDFF;
 }
 
 [role="dialog"][data-type="object"] > header h1 {
@@ -58,6 +58,8 @@
   font-weight: 500;
   padding: 1rem 3rem;
   margin: 0;
+  border-top: 0.1rem solid #CDCDFF;
+  border-bottom: 0.1rem solid #CDCDFF;
 }
 
 [role="dialog"][data-type="object"] ul {
@@ -234,6 +236,7 @@
   margin: 0;
   padding: 1.5rem;
   background-color: #4d4d4d;
+  border-top: 0.1rem solid #CDCDFF;
 }
 
 [role="dialog"][data-type="object"] menu button::-moz-focus-inner {
