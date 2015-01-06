@@ -58,6 +58,7 @@ form[role="dialog"][data-type="confirm"] menu {
   margin: 0;
   padding: 1.5rem;
   background: #4d4d4d;
+  border-top: 0.1rem solid #CDCDFF;
   display: block;
   overflow: hidden;
   position: absolute;
@@ -159,7 +160,7 @@ form[role="dialog"][data-type="confirm"] p {
   word-wrap: break-word;
   margin: 1rem 0 0;
   padding: 1rem 1.5rem;
-  border-top: 0.1rem solid #686868;
+  border-top: 0.1rem dashed #CDCDFF;
   line-height: 3rem;
 }
 
@@ -187,7 +188,7 @@ form[role="dialog"][data-type="confirm"] p small {
 }
 
 form[role="dialog"][data-type="confirm"] dl {
-  border-top: 0.1rem solid #686868;
+  border-top: 0.1rem dashed #CDCDFF;
   margin: 1rem 0 0;
   overflow: hidden;
   padding-top: 1rem;
@@ -231,7 +232,7 @@ form[role="dialog"][data-type="confirm"] figure figcaption {
 form[role="dialog"][data-type="confirm"] ul {
   margin: 0;
   padding: 2rem 1.5rem;
-  border-top: 0.1rem solid #686868;
+  border-top: 0.1rem dashed #CDCDFF;
   list-style: none;
   font-size: 1.6rem;
   font-weight: normal;
