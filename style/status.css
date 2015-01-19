@@ -11,6 +11,7 @@ section[role="status"] {
   bottom: 0;
   color: #fff;
   text-align: left;
+  border-top: 0.2rem solid #000;
 }
 
 section[role="status"] p {
