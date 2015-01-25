@@ -40,7 +40,7 @@ button,
 .skin-dark button,
 .skin-dark .bb-button,
 .skin-dark .button {
-  border: 1px solid #CDCDFF;
+  border: 1px solid #aeace8;
 }
 
 /* Recommend */
@@ -154,7 +154,7 @@ li .bb-button,
 li .button {
   position: relative;
   text-align: left;
-  border: 0.1rem solid #CDCDFF;
+  border: 0.1rem solid #aeace8;
   background: rgba(0,0,0,0.05);
   margin: 0 0 1rem;
   overflow: hidden;

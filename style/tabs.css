@@ -100,7 +100,7 @@ html[dir="rtl"] .bb-tablist {
  * Skin: dark
  * ---------------------------------- */
 .bb-tablist.skin-dark:before {
-  border-color: #CDCDFF;
+  border-color: #aeace8;
 }
 
 .bb-tablist.skin-dark > li:before {
@@ -116,7 +116,7 @@ html[dir="rtl"] .bb-tablist {
 
 .bb-tablist.skin-dark > li {
   background-color: transparent;
-  border-left: 1px dashed #CDCDFF;
+  border-left: 1px dashed #aeace8;
 }
 
 .bb-tablist.skin-dark > li > a,

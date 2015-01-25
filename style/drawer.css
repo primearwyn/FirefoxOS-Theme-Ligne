@@ -52,7 +52,7 @@ section[data-type="sidebar"] > header {
   background-image: linear-gradient(to bottom,
     rgba(0,0,0,0) 0%,
     rgba(0,0,0,.4) 100%);
-  border-bottom: 0.2rem solid #CDCDFF;
+  border-bottom: 0.2rem solid #aeace8;
 }
 
 section[data-type="sidebar"] > header h1 {
@@ -87,7 +87,7 @@ section[data-type="sidebar"] > header menu[type="toolbar"] button {
   background: none;
   padding: 0 1.75rem;
   border: none;
-  border-left: 1px dashed #CDCDFF;
+  border-left: 1px dashed #aeace8;
   -moz-box-sizing: border-box;
   min-width: 5rem;
   text-align: center;
@@ -95,7 +95,7 @@ section[data-type="sidebar"] > header menu[type="toolbar"] button {
 
 section[data-type="sidebar"] > header menu[type="toolbar"] a:last-child,
 section[data-type="sidebar"] > header menu[type="toolbar"] button:last-child {
-  border-left: 1px solid #CDCDFF;
+  border-left: 1px solid #aeace8;
 }
 
 section[data-type="sidebar"] > header menu[type="toolbar"] {
@@ -108,7 +108,7 @@ section[data-type="sidebar"] > header button {
   border: none;
   background: none;
   padding: 0;
-  border-right: 1px solid #CDCDFF;
+  border-right: 1px solid #aeace8;
   overflow: hidden;
   font-weight: 600;
   font-size: 1.4rem;
@@ -159,7 +159,7 @@ section[data-type="sidebar"] > nav > h2 {
   background-image: linear-gradient(to bottom,
     rgba(0,0,0,.2) 0%,
     rgba(0,0,0,.4) 100%);
-  border-bottom: 0.1rem dashed #CDCDFF;
+  border-bottom: 0.1rem dashed #aeace8;
   margin: 0;
   padding-right: 0.8rem;
 }
@@ -189,7 +189,7 @@ section[data-type="sidebar"] > nav > ul > li > a {
   color: #fff;
   font-size: 1.6rem;
   line-height: 4.35rem;
-  border-bottom: 0.1rem dashed #CDCDFF;
+  border-bottom: 0.1rem dashed #aeace8;
   text-indent: 3rem;
   padding-right: 0.8rem;
   width: 100%;
@@ -235,19 +235,19 @@ html[dir="rtl"] section[data-type="sidebar"] > header menu[type="toolbar"] a,
 html[dir="rtl"] section[data-type="sidebar"] > header menu[type="toolbar"] button {
   float: left;
   border: none;
-  border-right: 1px dashed #CDCDFF;
+  border-right: 1px dashed #aeace8;
 }
 
 html[dir="rtl"] section[data-type="sidebar"] > header menu[type="toolbar"] a:last-child,
 html[dir="rtl"] section[data-type="sidebar"] > header menu[type="toolbar"] button:last-child {
   background-position: right center;
-  border-right: 1px solid #CDCDFF;
+  border-right: 1px solid #aeace8;
 }
 
 html[dir="rtl"] section[data-type="sidebar"] > header a,
 html[dir="rtl"] section[data-type="sidebar"] > header button {
   border: none;
-  border-left: 1px solid #CDCDFF;
+  border-left: 1px solid #aeace8;
 }
 
 html[dir="rtl"] section[data-type="sidebar"]:after {

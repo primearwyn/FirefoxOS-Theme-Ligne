@@ -47,7 +47,7 @@
   overflow: hidden;
   font-weight: normal;
   padding: 0 3rem;
-  border-bottom: 0.1rem solid #CDCDFF;
+  border-bottom: 0.1rem solid #aeace8;
 }
 
 [role="dialog"][data-type="action"] > header h1 {
@@ -82,7 +82,7 @@
   height: 4.9rem;
   margin-bottom: 0;
   padding: 0 1rem;
-  border-left: 1px dashed #CDCDFF;
+  border-left: 1px dashed #aeace8;
   border-radius: 0;
   line-height: 4.9rem;
   background: none;
@@ -172,7 +172,7 @@
   margin: 0;
   overflow: visible;
   font-size: 0;
-  border-right: 1px solid #CDCDFF;
+  border-right: 1px solid #aeace8;
 }
 
 [role="dialog"][data-type="action"] > header > button .icon:after,
@@ -232,7 +232,7 @@
   padding: 0 1.2rem;
   margin: 0 1.5rem 1rem 1.5rem;
   background: rgba(87, 87, 87, 0.8);
-  border: 1px solid #CDCDFF;
+  border: 1px solid #aeace8;
   border-radius: 0;
   position: relative;
   color: #fff;
@@ -261,7 +261,7 @@
   left: 0;
   bottom: 0;
   z-index: -1;
-  border-top: 1px solid #CDCDFF;
+  border-top: 1px solid #aeace8;
 }
 
 [role="dialog"][data-type="action"] > menu > button:nth-last-child(2) {
@@ -312,7 +312,7 @@ html[dir="rtl"] [role="dialog"][data-type="action"] > header menu[type="toolbar"
 html[dir="rtl"] [role="dialog"][data-type="action"] > header menu[type="toolbar"] a,
 html[dir="rtl"] [role="dialog"][data-type="action"] > header menu[type="toolbar"] button {
   float: right;
-  border-right: 1px dashed #CDCDFF;
+  border-right: 1px dashed #aeace8;
 }
 
 html[dir="rtl"] [role="dialog"][data-type="action"] > header menu[type="toolbar"] a:last-child,
@@ -340,7 +340,7 @@ html[dir="rtl"] [role="dialog"][data-type="action"] > header > button .icon:afte
 html[dir="rtl"] [role="dialog"][data-type="action"] > header > a .icon:after {
   left: auto;
   right: 0;
-  border-left: 1px solid #CDCDFF;
+  border-left: 1px solid #aeace8;
 }
 
 html[dir="rtl"] [role="dialog"][data-type="action"] > menu > button:last-child {

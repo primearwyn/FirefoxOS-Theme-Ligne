@@ -155,12 +155,12 @@ section[role="region"] > header:first-child button:focus {
 
 section[role="region"] > header:first-child > a,
 section[role="region"] > header:first-child > button {
-  border-right: 1px solid #CDCDFF;
+  border-right: 1px solid #aeace8;
 }
 
 section[role="region"] > header:first-child menu a,
 section[role="region"] > header:first-child menu button {
-  border-left: 1px dashed #CDCDFF;
+  border-left: 1px dashed #aeace8;
 }
 
 /* ----------------------------------
