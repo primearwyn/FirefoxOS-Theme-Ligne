@@ -17,7 +17,11 @@
 /* Header */
 [role="dialog"][data-type="edit"] [role="region"] > header:first-child,
 [role="dialog"][data-type="edit"] [role="region"] > gaia-header {
-  background-color: #f4f4f4;
+  background-color: #A8E3EB;
+  background-image: linear-gradient(to bottom, 
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0.7) 20%, 
+      rgba(255, 255, 255, 0.5));
   transition: transform 0.4s ease;
   pointer-events: auto;
 }
@@ -33,10 +37,27 @@
   border-left: 1px dashed #000;
 }
 
+[role="dialog"][data-type="edit"] [role="region"] > header:first-child a:active,
+[role="dialog"][data-type="edit"] [role="region"] > header:first-child button:active,
+[role="dialog"][data-type="edit"] [role="region"] > header:first-child a:hover,
+[role="dialog"][data-type="edit"] [role="region"] > header:first-child button:hover,
+[role="dialog"][data-type="edit"] [role="region"] > gaia-header a:active,
+[role="dialog"][data-type="edit"] [role="region"] > gaia-header button:active,
+[role="dialog"][data-type="edit"] [role="region"] > gaia-header a:hover,
+[role="dialog"][data-type="edit"] [role="region"] > gaia-header button:hover {
+  background-color: #A8E3EB;
+}
+
 [role="dialog"][data-type="edit"] [role="region"] > header:first-child menu[type="toolbar"] > button,
+[role="dialog"][data-type="edit"] [role="region"] > gaia-header menu[type="toolbar"] > button {
+  border-right: none;
+  border-left: 1px dashed #A8E3EB;
+}
+
+[role="dialog"][data-type="edit"] [role="region"] > header:first-child > button,
 [role="dialog"][data-type="edit"] [role="region"] > gaia-header > button {
   border-left: none;
-  border-right: 1px solid #000;
+  border-right: 1px solid #A8E3EB;
 }
 
 [role="dialog"][data-type="edit"] [role="region"] > header:first-child .icon.icon-close {
