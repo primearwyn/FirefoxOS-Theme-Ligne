@@ -46,14 +46,13 @@ button,
 /* Recommend */
 button.recommend,
 .bb-button.recommend {
-  background-color: #00caf2;
-  color: #fff;
+  background-color: #a8e3eb;
 }
 
 /* Danger */
 button.danger,
 .danger.bb-button {
-  background-color: #e51e1e;
+  background-color: #ff8080;
   color: #fff;
 }
 
@@ -61,7 +60,7 @@ button.danger,
 button:active,
 .bb-button:active,
 .button:active {
-  background-color: #b2f2ff;
+  background-color: #54ffa1;
   color: #fff;
 }
 
@@ -92,7 +91,7 @@ button[data-icon]:active:before,
 .skin-dark button:active,
 .skin-dark .bb-button:active,
 .skin-dark .button:active {
-  background-color: #00aacc;
+  background-color: #54ffa1;
 }
 
 /* Disabled */
@@ -108,14 +107,14 @@ button[disabled],
 button[disabled].recommend,
 .bb-button[aria-disabled="true"].recommend,
 .button[aria-disabled="true"].recommend {
-  background-color: #97cbd5;
+  background-color: rgba(168,227,235,0.5);
   color: rgba(255,255,255,0.5);
 }
 
 button[disabled].danger,
 .bb-button[aria-disabled="true"].danger,
 .button[aria-disabled="true"].danger {
-  background-color: #eb7474;
+  background-color: rgba(255,128,128,0.5);
   color: rgba(255,255,255,0.5);
 }
 
@@ -130,13 +129,13 @@ button[disabled].danger,
 .skin-dark button[disabled].recommend,
 .skin-dark .button[aria-disabled="true"].recommend,
 .skin-dark .bb-button[aria-disabled="true"].recommend {
-  background-color: #006579;
+  background-color: rgba(168,227,235,0.5);
 }
 
 .skin-dark button[disabled].danger,
 .skin-dark .button[aria-disabled="true"].danger,
 .skin-dark .bb-button[aria-disabled="true"].danger {
-  background-color: #730f0f;
+  background-color: rgba(255,128,128,0.5);
 }
 
 button[disabled]::-moz-selection,
@@ -206,7 +205,7 @@ li .button.icon:before {
 li button.icon-view:active,
 li .bb-button.icon-view:active,
 li .button.icon-view:active {
-  background-color: #b2f2ff;
+  background-color: #54ffa1;
 }
 
 li button.icon-view:before,
@@ -225,7 +224,7 @@ li .button[data-icon]:before {
 li button[data-icon="expand"]:before,
 li .bb-button[data-icon="expand"]:before,
 li .button[data-icon="expand"]:before {
-  color: #00aac5;
+  color: #aeace8;
   top: unset;
   bottom: 0;
 }
@@ -259,7 +258,7 @@ li .button.icon-dialog:before {
   bottom: 0.5rem;
   border-top: 0.7rem solid transparent;
   border-bottom: 0.7rem solid transparent;
-  border-left: 0.7rem solid #00aac5;
+  border-left: 0.7rem solid #aeace8;
   transform: rotate(45deg);
   z-index: 1;
 }
@@ -285,19 +284,19 @@ li .button[aria-disabled="true"].icon-dialog:before {
 .skin-dark li button:active,
 .skin-dark li .button:active,
 .skin-dark li .bb-button:active {
-  background-color: #00aacc;
+  background-color: #54ffa1;
 }
 
 .skin-dark li button.icon-view:active,
 .skin-dark li .button.icon-view:active,
 .skin-dark li .bb-button.icon-view:active {
-  background-color: #00aacc;
+  background-color: #54ffa1;
 }
 
 .skin-dark li button.icon-dialog:active:before,
 .skin-dark li .bb-button.icon-dialog:active:before,
 .skin-dark li .button.icon-dialog:active:before {
-  border-left: 0.7rem solid #b2f2ff;
+  border-left: 0.7rem solid #54ffa1;
 }
 
 .skin-dark li button:disabled,
