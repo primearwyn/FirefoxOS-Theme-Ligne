@@ -114,7 +114,7 @@
 [role="dialog"][data-type="action"] > header button:active .icon:after,
 [role="dialog"][data-type="action"] > header menu[type="toolbar"] a:active,
 [role="dialog"][data-type="action"] > header menu[type="toolbar"] button:active  {
-  background: #008aaa !important;
+  background: #54ffa1 !important;
 }
 
 /* Disabled state */
@@ -270,7 +270,7 @@
 
 /* Press state */
 [role="dialog"][data-type="action"] > menu > button:active {
-  background: #00aacc;
+  background: #54ffa1;
   color: #fff;
 }
 
