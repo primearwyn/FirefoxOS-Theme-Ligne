@@ -32,14 +32,14 @@ progress[value] {
 }
 
 progress[value]::-moz-progress-bar {
-  background: #01c5ed;
+  background: #aeace8;
   border-radius: 0;
 }
 
 /* Progress bar */
 progress[value].pack-activity {
   background-size: 15rem;
-  background-image: repeating-linear-gradient( 135deg, #92F4FE, #92F4FE 5rem, #00CDF0 5rem, #00CDF0 10rem );
+  background-image: repeating-linear-gradient( 135deg, #E3DBF9, #E3DBF9 5rem, #ADB4EB 5rem, #ADB4EB 10rem );
   animation: move 1.5s steps(15) infinite;
 }
 
