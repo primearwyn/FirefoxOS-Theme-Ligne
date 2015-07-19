@@ -102,19 +102,19 @@ form[role="dialog"][data-type="confirm"] menu button {
 
 /* Recommend */
 form[role="dialog"][data-type="confirm"] menu button.recommend {
-  background-color: #00caf2;
+  background-color: #A8E3EB;
   color: #fff;
 }
 
 /* Danger */
 form[role="dialog"][data-type="confirm"] menu button.danger {
-  background-color: #e51e1e;
+  background-color: #FF8080;
   color: #fff;
 }
 
 /* Pressed */
 form[role="dialog"][data-type="confirm"] menu button:active {
-  background: #00aacc;
+  background: #54ffa1;
   color: #fff;
 }
 
@@ -127,11 +127,11 @@ form[role="dialog"][data-type="confirm"] > menu > button[disabled] {
 }
 
 form[role="dialog"][data-type="confirm"] > menu > button[disabled].recommend {
-  background-color: #006579;
+  background-color: rgba(168, 227, 235, 0.5);
 }
 
 form[role="dialog"][data-type="confirm"] > menu > button[disabled].danger {
-  background-color: #730f0f;
+  background-color: rgba(255, 128, 128, 0.5);
 }
 
 button[disabled]::-moz-selection {
