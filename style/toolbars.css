@@ -36,7 +36,7 @@
 [role="toolbar"] button:active,
 [role="toolbar"] a:active {
   color: #fff;
-  background-color: #b2f2ff;
+  background-color: #54ffa1;
 }
 
 [role="toolbar"] [data-icon] {
