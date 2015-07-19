@@ -197,25 +197,25 @@
   top: 50%;
   margin-top: -1.7rem;
   opacity: 0;
-  color: #00ABCD;
+  color: #54ffa1;
   line-height: 3rem;
   transition: opacity 0.2s ease 0s;
 }
 
 [role="dialog"][data-type="object"] .bb-radio label input:checked ~ span,
 [role="dialog"][data-type="object"] .bb-checkbox label input:checked ~ span {
-  color: #00ABCD;
+  color: #54ffa1;
 }
 
 [role="dialog"][data-type="object"] .bb-radio label input:checked ~ span:before,
 [role="dialog"][data-type="object"] .bb-checkbox label input:checked ~ span:before {
   opacity: 1;
-  color: #00ABCD;
+  color: #54ffa1;
 }
 
 /* Pressed status */
 [role="dialog"][data-type="object"] ul li:active:before {
-  background-color: #00aacc;
+  background-color: #54ffa1;
 }
 
 [role="dialog"][data-type="object"] ul li:not(.input):active:after,
@@ -273,19 +273,19 @@
 
 /* Recommend */
 [role="dialog"][data-type="object"] menu button.recommend {
-  background-color: #00caf2;
+  background-color: #a8e3eb;
   color: #fff;
 }
 
 /* Danger */
 [role="dialog"][data-type="object"] menu button.danger {
-  background-color: #e51e1e;
+  background-color: #ff8080;
   color: #fff;
 }
 
 /* Pressed */
 [role="dialog"][data-type="object"] menu button:active {
-  background: #00aacc;
+  background: #54ffa1;
   color: #fff;
 }
 
@@ -298,11 +298,11 @@
 }
 
 [role="dialog"][data-type="object"] > menu > button[disabled].recommend {
-  background-color: #006579;
+  background-color: rgba(168, 227, 235, 0.5);
 }
 
 [role="dialog"][data-type="object"] > menu > button[disabled].danger {
-  background-color: #730f0f;
+  background-color: rgba(255,128,128,0.5);
 }
 
 button[disabled]::-moz-selection,
