@@ -116,7 +116,7 @@ p {
 
 .gaia-list.active li:active,
 .gaia-list li.active:active {
-  background-color: rgba(0, 213, 255, 0.3);
+  background-color: rgba(84, 255, 161, 0.3);
 }
 
 
@@ -134,7 +134,7 @@ p {
   height: 30px;
   line-height: 40px;
   font-weight: normal;
-  color: #ff4e00;
+  color: #aeace8;
   text-transform: uppercase;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -308,7 +308,7 @@ p {
  */
 
 .skin-comms .gaia-list header {
-  color: #4997a7;
+  color: #00caf2;
 }
 
 .skin-organic .gaia-list header {

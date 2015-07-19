@@ -25,7 +25,7 @@
   height: 3rem;
   line-height: 4rem;
   font-weight: normal;
-  color: #ff4e00;
+  color: #aeace8;
   text-transform: uppercase;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -77,7 +77,7 @@ li a:active {
 
 [data-type="list"].active li:active:after,
 [data-type="list"] li > a:active:after {
-  background-color: rgba(0,213,255,0.3);
+  background-color: rgba(84, 255, 161, 0.3);
 }
 
 /* Disabled */
@@ -233,7 +233,7 @@ li a:active {
 
 /* Themes */
 .skin-comms [data-type="list"] header {
-  color: #4997a7;
+  color: #00caf2;
 }
 
 /* RTL View */
