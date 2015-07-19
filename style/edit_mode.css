@@ -109,25 +109,20 @@
 
 /* Press (default & recommend) */
 [role="dialog"][data-type="edit"] > menu button:not(:disabled):active {
-  background: #b2f2ff;
+  background: #54ffa1;
   color: #fff;
 }
 
 /* Recommend */
 [role="dialog"][data-type="edit"] > menu button.recommend {
-  background-color: #00caf2;
+  background-color: #a8e3eb;
   color: #fff;
 }
 
 /* Danger */
 [role="dialog"][data-type="edit"] > menu button.danger {
-  background-color: #e51e1e;
+  background-color: #ff8080;
   color: #fff;
-}
-
-/* Danger Press */
-[role="dialog"][data-type="edit"] > menu button.danger:active {
-  background-color: #b2f2ff;
 }
 
 /* Disabled */
@@ -149,8 +144,8 @@
 
 /* Danger disabled */
 [role="dialog"][data-type="edit"] > menu button[disabled].danger {
-  background-color: #e51e1e;
-  color: #fff;
+  background-color: rgba(255, 128, 128, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 [role="dialog"][data-type="edit"] > menu button:first-child {
