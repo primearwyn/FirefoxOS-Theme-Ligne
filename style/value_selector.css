@@ -79,7 +79,7 @@
 
 /* Pressed status */
 [role="dialog"][data-type="value-selector"] [role="listbox"] li:active {
-  background-color: #00ABCC;
+  background-color: #54ffa1;
 }
 
 [role="dialog"][data-type="value-selector"] [role="listbox"] li:active label,
@@ -124,7 +124,7 @@
 [role="dialog"][data-type="value-selector"] [role="listbox"] li[aria-selected="true"] span {
   padding-right: 2.6rem;
   margin-right: 1.2rem;
-  color: #00abcd;
+  color: #54ffa1;
 }
 
 /* Menu & buttons setup */
@@ -175,13 +175,13 @@
 /* Affirmative */
 .value-selector > [role="dialog"][data-type="value-selector"] menu.value-selector-buttons button.affirmative,
 .value-selector > [role="dialog"][data-type="value-selector"] menu.value-selector-buttons button.recommend {
-  background-color: #00caf2;
+  background-color: #a8e3eb;
   color: #fff;
 }
 
 /* Pressed */
 .value-selector > [role="dialog"][data-type="value-selector"] menu.value-selector-buttons button:active {
-  background: #00aacc;
+  background: #54ffa1;
   color: #fff;
 }
 
@@ -194,7 +194,7 @@
 }
 
 [role="dialog"][data-type="value-selector"] > menu.value-selector-buttons > button[disabled].recommend {
-  background-color: #006579;
+  background-color: rgba(168,227,235,0.5);
 }
 
 button[disabled]::-moz-selection {
