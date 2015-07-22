@@ -40,6 +40,16 @@ section[role="region"] > header:first-child menu {
   margin: 0;
 }
 
+section[role="region"] > header:first-child input[type="text"],
+section[role="region"] > header:first-child input[type="password"],
+section[role="region"] > header:first-child input[type="email"],
+section[role="region"] > header:first-child input[type="tel"],
+section[role="region"] > header:first-child input[type="search"],
+section[role="region"] > header:first-child input[type="url"],
+section[role="region"] > header:first-child input[type="number"] {
+  background-color: transparent;
+}
+
 /* ----------------------------------
   Buttons
 ---------------------------------- */
