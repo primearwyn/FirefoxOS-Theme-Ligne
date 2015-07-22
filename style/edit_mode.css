@@ -11,7 +11,7 @@
   right: 0;
   bottom: 0;
   pointer-events: none;
-  transition: visibility 0.4s;
+  transition: visibility var(--transition-duration);
 }
 
 /* Header */
@@ -22,7 +22,7 @@
       rgba(255, 255, 255, 1) 0%,
       rgba(255, 255, 255, 0.7) 20%, 
       rgba(255, 255, 255, 0.5));
-  transition: transform 0.4s ease;
+  transition: transform  var(--transition-duration) ease;
   pointer-events: auto;
 }
 
@@ -31,7 +31,7 @@
   color: #868692;
 }
 
-[role="dialog"][data-type="edit"] [role="region"] > header:first-child menu[type="toolbar"] button,
+[role="dialog"][data-type="edit"] [role="region"] > header:first-child button,
 [role="dialog"][data-type="edit"] [role="region"] > gaia-header button {
   color: #00aac5;
   border-left: 1px dashed #000;
@@ -60,10 +60,6 @@
   border-right: 1px solid #A8E3EB;
 }
 
-[role="dialog"][data-type="edit"] [role="region"] > header:first-child .icon.icon-close {
-  background-image: url(headers/images/icons/organic/close.png);
-}
-
 /* Menu */
 [role="dialog"][data-type="edit"] > menu {
   white-space: nowrap;
@@ -78,7 +74,7 @@
   right: 0;
   bottom: 0;
   display: flex;
-  transition: transform 0.4s ease;
+  transition: transform var(--transition-duration) ease;
   pointer-events: auto;
 }
 
@@ -88,7 +84,7 @@
   height: 4rem;
   margin: 0;
   -moz-margin-start: 1rem;
-  padding: 0 1.2rem;
+  padding: 0 0.2rem;
   -moz-box-sizing: border-box;
   display: block;
   text-overflow: ellipsis;
