@@ -6,7 +6,7 @@ Alternative theme for Firefox OS.
 This repo was initially forked from [Building Blocks](https://github.com/buildingfirefoxos/Building-Blocks). The main folder in this repo "style" is bases itself on [Gaia](https://github.com/mozilla-b2g/gaia) CSS files.
 The code you will find here could be useful to anyone interested in creating a Firefox OS application, but with a different look and feel.
 
-You can find more information on how to use these files in [buildingfirefoxos.com](http://www.buildingfirefoxos.com).
+You can find more information on how to use these files on [MDN's Building Blocks page](https://developer.mozilla.org/en-US/Apps/Design/Firefox_OS_building_blocks).
 All examples showed there are also available inside "style" folder, but in a more friendly manner.
 
 
